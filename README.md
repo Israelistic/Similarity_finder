@@ -28,3 +28,4 @@ gem awesome_print
 * Deployment instructions
 
 * ...
+# Similarity_finder
