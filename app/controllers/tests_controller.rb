@@ -5,6 +5,6 @@ class TestsController < ApplicationController
 
   def import
       Test.import(params[:file])
-      redirect_to root_url, notice "Test data imported!"
+      redirect_to root_url, notice: "Test data imported!"
   end
 end

@@ -1,10 +1,13 @@
 class Test < ApplicationRecord
-    require 'cvs'
+  require 'csv'
 
-    def self.import(file)
-        CVS.foreach(file.path, headers :ture) do |row|
-            Test.create! row.to_hash
-        end
+  def self.import(file)
+    CSV.foreach(file.path, headers: true) do | row |
+      Test.create! row.to_hash
     end
+  end
+  def delete
+    Test.delete_all
+  end
 
 end
