@@ -6,7 +6,8 @@ class Test < ApplicationRecord
       Test.create! row.to_hash
     end
   end
-  def delete
+  
+  def self.delete_data
     Test.delete_all
   end
 
