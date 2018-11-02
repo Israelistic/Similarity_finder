@@ -9,7 +9,12 @@ Create a csv that looks like this:
 |:------:|:------:|
 | img1.png|img2.png|
 
-Browse the cvs and import it
+Browse the cvs and click submit CSV
+And the output file will look something like:
+
+| image1 | image2 | similar | elapsed |
+|:------:|:------:|:-------:|:-------:|
+|img1.png|img2.png|0.56|255|
 
 Things you may want to cover:
 
