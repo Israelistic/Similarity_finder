@@ -1,5 +1,7 @@
 # Similarity_finder
 
+Browse a cvs file and import it
+
 Things you may want to cover:
 
 * Ruby version 5.3.2
@@ -7,13 +9,8 @@ Things you may want to cover:
 * System dependencies
 
 * Configuration
-gems installed:
-# https://www.rubydoc.info/gems/graphicsmagick/1.0.5
-gem 'graphicsmagick'
-# https://github.com/minimagick/minimagick
-gem "mini_magick"
 
-gem awesome_print
+
 * Database creation
 
 * Database initialization
